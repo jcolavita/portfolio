@@ -7,7 +7,7 @@ export default function headerSection() {
     <header className=" font-sora bg-black">
       <div className="">
         <NavBar />
-        <hr className=" h-[2px] bg-white" />
+
         <Hero />
       </div>
     </header>
