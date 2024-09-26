@@ -4,7 +4,7 @@ import Hero from "@/components/hero";
 
 export default function headerSection() {
   return (
-    <header className=" font-sora">
+    <header className=" font-sora bg-black">
       <div className="">
         <NavBar />
         <hr className=" h-[2px] bg-white" />
