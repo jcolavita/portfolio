@@ -7,7 +7,6 @@ export default function headerSection() {
     <header className=" font-sora bg-black">
       <div className="">
         <NavBar />
-
         <Hero />
       </div>
     </header>
