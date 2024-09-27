@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        BLUE_700: "#1A2FAE",
       },
       fontFamily: {
         sora: ["Sora", "sans-serif"],
