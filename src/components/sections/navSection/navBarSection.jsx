@@ -1,5 +1,5 @@
 "use client";
-import NavItem from "@/components/navItem";
+import NavItem from "@/components/sections/navSection/navItem";
 import React, { useState } from "react";
 import { IoIosMenu } from "react-icons/io";
 

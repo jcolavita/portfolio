@@ -1,11 +1,12 @@
-import Header from "@/app/sections/headerSection";
-import Services from "@/app/sections/servicesSection";
-import ContactUs from "@/app/sections/contactUsSection";
-import Footer from "@/app/sections/footerSection";
+import Header from "@/components/sections/headerSection/headerSection";
+import ContactUs from "@/components/sections/contactUsSection/contactUsSection";
+import Footer from "@/components/sections/footerSection/footerSection";
+import NavBar from "@/components/sections/navSection/navBarSection";
 
 export default function Home() {
   return (
     <div>
+      <NavBar />
       <Header />
       <ContactUs />
       <Footer />

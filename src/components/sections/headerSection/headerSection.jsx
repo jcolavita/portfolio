@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Developer from "../../public/images/developer.png";
 import { IoLogoWhatsapp } from "react-icons/io5";
+import Developer from "../../../../public/images/developer.png";
 
-export default function heroSection() {
+export default function headerSection() {
   return (
-    <div className="md:mx-16 mx-8 md:flex  font-sora ">
+    <header className=" md:px-16 px-8 md:flex  font-sora bg-black">
       <div className="  md:w-1/2  pt-14 flex flex-col ">
         <h1 className=" md:text-6xl text-4xl md:text-left text-center font-extrabold">
           LLEVA TU NEGOCIO AL SIGUIENTE NIVEL
@@ -26,6 +26,6 @@ export default function heroSection() {
         <div className=" absolute top-40 left-10 md:w-72 md:h-72 w-36 h-36 bg-blue-500 rounded-full mix-blend-screen filter blur-3xl "></div>
         <div className=" absolute top-10 right-10 md:w-72 md:h-72 w-36 h-36 bg-blue-600 rounded-full mix-blend-screen filter blur-3xl  "></div>
       </div>
-    </div>
+    </header>
   );
 }
