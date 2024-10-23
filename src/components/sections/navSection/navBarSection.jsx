@@ -10,7 +10,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className=" sticky top-0 z-50 ">
+    <div className=" sticky top-0 z-50 font-sora">
       <nav className="md:px-16 px-8   md:flex w-full justify-between pt-8 items-center bg-black ">
         <div className="flex justify-between ">
           <text className=" text-lg">VitaCode</text>

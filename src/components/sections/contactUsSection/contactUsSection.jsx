@@ -5,7 +5,7 @@ export default function contactUsSection() {
   return (
     <section className="md:flex font-sora ">
       <div className=" md:px-16 px-8 pt-10 pb-10 bg-white md:w-[60%] text-black">
-        <h2 className="  md:text-4xl text-3xl font-bold font-sora">
+        <h2 className="  md:text-4xl text-3xl font-bold ">
           Contáctanos con un clic
         </h2>
         <p className="md:text-lg text-base mt-3">
