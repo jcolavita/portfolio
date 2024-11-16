@@ -1,5 +1,5 @@
 "use client";
-import NavItem from "@/components/sections/navSection/navItem";
+import NavItem from "./navItem";
 import React, { useState } from "react";
 import { IoIosMenu } from "react-icons/io";
 
@@ -10,7 +10,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className=" sticky top-0 z-50 font-sora">
+    <div className=" sticky top-0 z-50 ">
       <nav className="md:px-16 px-8   md:flex w-full justify-between pt-8 items-center bg-black ">
         <div className="flex justify-between ">
           <text className=" text-lg">VitaCode</text>
@@ -27,9 +27,9 @@ const NavBar = () => {
             isOpen ? "top-[61px] opacity-100" : "top-[-400px] opacity-0"
           }`}
         >
-          <NavItem text="Inicio" />
-          <NavItem text="Servicios" />
-          <NavItem text="Contacto" />
+          <NavItem text="Inicio" link="/#" />
+          <NavItem text="Servicios" link="/#services" />
+          <NavItem text="Contacto" link="/#contact" />
         </ul>
       </nav>
       <hr className=" h-[2px] bg-white" />
