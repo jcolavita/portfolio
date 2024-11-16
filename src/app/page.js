@@ -1,15 +1,15 @@
-import Header from "@/components/sections/headerSection/headerSection";
-import ContactUs from "@/components/sections/contactUsSection/contactUsSection";
-import Footer from "@/components/sections/footerSection/footerSection";
-import NavBar from "@/components/sections/navSection/navBarSection";
+import Header from "./components/sections/headerSection/headerSection";
+import ContactUs from "./components/sections/contactUsSection/contactUsSection";
+import Services from "./components/sections/servicesSection/services.jsx";
+import Tecnologies from "./components/sections/tecnologiesSection/tecnologies";
 
 export default function Home() {
   return (
     <div>
-      <NavBar />
       <Header />
+      <Services />
+      <Tecnologies />
       <ContactUs />
-      <Footer />
     </div>
   );
 }
