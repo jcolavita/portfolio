@@ -16,7 +16,7 @@ export default function ProjectsCard() {
         <div className="grid md:grid-cols-2 grid-cols-1 gap-10">
           {data.map((item) => (
             <div
-              className=" relative group md:hover:scale-105 transition-all ease-in-out duration-300 rounded-lg overflow-hidden"
+              className=" outline outline-2 outline-white   relative group md:hover:scale-105 transition-all ease-in-out duration-300 rounded-lg overflow-hidden"
               key={item.id}
             >
               <div className="w-full  bg-black/85 absolute md:h-0 h-full md:group-hover:h-full transition-all ease-in-out duration-200" />
@@ -40,7 +40,7 @@ export default function ProjectsCard() {
               <a
                 href={item.link}
                 target="blank"
-                className={`bg-white px-5 shadow shadow-white md:hover:scale-110 text-black rounded-full absolute bottom-5 right-10 md:opacity-0 md:group-hover:opacity-100 transition-all ease-in-out duration-300 ${
+                className={`bg-white px-5 shadow text-sm shadow-white md:hover:scale-110 text-black rounded-full absolute md:bottom-5 bottom-2 md:right-10 right-5 md:opacity-0 md:group-hover:opacity-100 transition-all ease-in-out duration-300 ${
                   item.link === "" ? "hidden" : ""
                 }`}
               >
