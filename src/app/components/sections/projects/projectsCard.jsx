@@ -16,7 +16,7 @@ export default function ProjectsCard() {
         <div className="grid md:grid-cols-2 grid-cols-1 gap-10">
           {data.map((item) => (
             <div
-              className=" relative group rounded-lg overflow-hidden"
+              className=" relative group md:hover:scale-105 transition-all ease-in-out duration-300 rounded-lg overflow-hidden"
               key={item.id}
             >
               <div className="w-full  bg-black/85 absolute md:h-0 h-full md:group-hover:h-full transition-all ease-in-out duration-200" />
@@ -47,17 +47,6 @@ export default function ProjectsCard() {
                 Visitar
               </a>
             </div>
-
-            // <div  className=" outline outline-2 outline-white">
-            //   <Image
-            //     alt={item.alt}
-            //     src={item.imagen}
-            //     width={1500}
-            //     height={1500}
-            //     className="w-full h-auto aspect-video"
-            //   />
-            //   <p className="text-white text-base"> hola {item.name}</p>
-            // </div>
           ))}
         </div>
       )}
