@@ -22,78 +22,96 @@ export default function tecnologies() {
         negocio.
       </p>
       <div className="flex justify-between">
-        <Image
-          src={htmlLogo}
-          alt="Logo de HTML"
-          width={100}
-          height={100}
-          title="HTML"
-          className=" transition-all ease-in-out duration-300"
-        />
-        <Image
-          src={cssLogo}
-          alt="Logo de CSS"
-          width={100}
-          height={100}
-          title="CSS"
-          className=" transition-all ease-in-out duration-300"
-        />
-        <Image
-          src={tailwindLogo}
-          alt="Logo de Tailwind"
-          width={100}
-          height={100}
-          title="TAILWIND"
-          className=" transition-all ease-in-out duration-300"
-        />
-        <Image
-          src={reactLogo}
-          alt="Logo de NextJS"
-          width={100}
-          height={100}
-          title="React"
-          className="transition-all ease-in-out duration-300"
-        />
-        <Image
-          src={nextjsLogo}
-          alt="Logo de NextJS"
-          width={100}
-          height={100}
-          title="NextJS"
-          className=" transition-all ease-in-out duration-300"
-        />
-        <Image
-          src={jsLogo}
-          alt="Logo de JavaScript"
-          width={100}
-          height={100}
-          title="JavaScript"
-          className=" transition-all ease-in-out duration-300"
-        />
-        <Image
-          src={csharpLogo}
-          alt="Logo de c#"
-          width={100}
-          height={100}
-          title="C#"
-          className="transition-all ease-in-out duration-300"
-        />
-        <Image
-          src={postgresqlLogo}
-          alt="Logo de Postgres"
-          width={100}
-          height={100}
-          title="postgresql"
-          className=" transition-all ease-in-out duration-300"
-        />
-        <Image
-          src={sqlserverLogo}
-          alt="Logo de Sqlserver"
-          width={100}
-          height={100}
-          title="SqlServer"
-          className=" transition-all ease-in-out duration-300"
-        />
+        <div className=" group relative flex justify-center">
+          <Image
+            src={htmlLogo}
+            alt="Logo de HTML"
+            width={100}
+            height={100}
+            title="HTML"
+            className=" transition-all ease-in-out duration-300"
+          />
+        </div>
+        <div className=" group relative flex justify-center">
+          <Image
+            src={cssLogo}
+            alt="Logo de CSS"
+            width={100}
+            height={100}
+            title="CSS"
+            className=" transition-all ease-in-out duration-300"
+          />
+        </div>
+        <div className=" group relative flex justify-center">
+          <Image
+            src={tailwindLogo}
+            alt="Logo de Tailwind"
+            width={100}
+            height={100}
+            title="TAILWIND"
+            className=" transition-all ease-in-out duration-300"
+          />
+        </div>
+        <div className=" group relative flex justify-center">
+          <Image
+            src={reactLogo}
+            alt="Logo de NextJS"
+            width={100}
+            height={100}
+            title="React"
+            className="transition-all ease-in-out duration-300"
+          />
+        </div>
+        <div className=" group relative flex justify-center">
+          <Image
+            src={nextjsLogo}
+            alt="Logo de NextJS"
+            width={100}
+            height={100}
+            title="NextJS"
+            className=" transition-all ease-in-out duration-300"
+          />
+        </div>
+        <div className=" group relative flex justify-center ">
+          <Image
+            src={jsLogo}
+            alt="Logo de JavaScript"
+            width={100}
+            height={100}
+            title="JavaScript"
+            className=" transition-all ease-in-out duration-300"
+          />
+        </div>
+        <div className=" group relative flex justify-center ">
+          <Image
+            src={csharpLogo}
+            alt="Logo de c#"
+            width={100}
+            height={100}
+            title="C#"
+            className="transition-all ease-in-out duration-300"
+          />
+        </div>
+        <div className=" group relative flex justify-center ">
+          <Image
+            src={postgresqlLogo}
+            alt="Logo de Postgres"
+            width={100}
+            height={100}
+            title="postgresql"
+            className=" transition-all ease-in-out duration-300"
+          />
+        </div>
+        <div className=" group relative flex justify-center ">
+          <Image
+            src={sqlserverLogo}
+            alt="Logo de Sqlserver"
+            width={100}
+            height={100}
+            title="SqlServer"
+            className=" transition-all ease-in-out duration-300"
+          />
+        </div>
       </div>
     </section>
   );
