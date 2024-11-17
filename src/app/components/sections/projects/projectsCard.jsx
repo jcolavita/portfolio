@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import projectsJson from "@/app/json/projects.json";
 
-export default function projectsCard() {
+export default function ProjectsCard() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
