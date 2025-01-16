@@ -6,7 +6,7 @@ import Projects from "./components/sections/projects/projectsSection";
 
 export default function Home() {
   return (
-    <div>
+    <div className=" text-white">
       <Header />
       <Services />
       <Projects />
