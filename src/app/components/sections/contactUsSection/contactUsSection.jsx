@@ -21,7 +21,7 @@ export default function contactUsSection() {
       </div>
       <div className="md:w-[40%] bg-BLUE_700 d:px-16 px-8 pt-10 text-white">
         <h3 className="md:text-xl text-base mt-3 font-semibold">
-          Informacion de contacto
+          Información de contacto
         </h3>
         <div className="md:flex gap-8 mt-10">
           <div className="pb-5 md:pb-0">

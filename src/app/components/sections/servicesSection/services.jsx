@@ -10,7 +10,7 @@ export default function services() {
       className="w-full md:px-16 px-8 pt-14 pb-14 bg-white"
     >
       <h2 className="md:text-5xl text-3xl text-center font-bold mb-5 text-black">
-        Sercicios
+        Servicios
       </h2>
       <hr className=" h-[2px] w-full bg-black mb-5" />
       <p className="text-black text-center mb-8 md:text-lg text-base">
@@ -23,7 +23,7 @@ export default function services() {
           <Image src={appEscritorio} alt="Aps de escritorio " />
           <div className="flex items-center justify-center absolute left-0 top-0 right-0 bottom-0 m-auto ">
             <h3 className=" md:group-hover:opacity-100 md:opacity-0 opacity-100 transition-all ease-in-out duration-300  text-center font-semibold md:text-4xl text-xl  ">
-              APLICACION DE ESCRITORIO
+              APLICACIÓN DE ESCRITORIO
             </h3>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function services() {
 
           <div className="flex items-center justify-center absolute left-0 top-0 right-0 bottom-0 m-auto ">
             <h3 className=" md:group-hover:opacity-100 md:opacity-0 opacity-100 transition-all ease-in-out duration-300  text-center  font-semibold md:text-4xl text-xl  ">
-              APLICACION WEB
+              APLICACIÓN WEB
             </h3>
           </div>
         </div>

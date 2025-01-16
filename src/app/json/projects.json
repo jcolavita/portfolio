@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "empresa": "Politecnico Santiago Mariño",
+    "empresa": "Politécnico Santiago Mariño",
     "service": "Aplicacion de escritorio",
     "link": "",
     "description": "Sistema para la gestion y registro de actas de Investigacion universitarias",
-    "alt": "Sistema de gestion politecnico santiago mariño",
+    "alt": "Sistema de gestion politécnico santiago mariño",
     "imagen": "/images/psm-screenshot.png"
   },
   {
     "id": "2",
     "empresa": "Crefinex",
-    "service": "Pagina web",
+    "service": "Página web",
     "description": "Landing page empresarial",
     "link": "https://crefinex.vercel.app",
-    "alt": "Sistema de gestion politecnico santiago mariño",
+    "alt": "Landing page Crefinex C.A.",
     "imagen": "/images/crefinex-screenshot.png"
   }
 ]

@@ -11,14 +11,14 @@ export default function headerSection() {
           LLEVA TU NEGOCIO AL SIGUIENTE NIVEL
         </h1>
         <p className=" md:text-2xl text-lg md:text-left text-center font-normal mt-3">
-          Desarrollo personalizado para las necesidades de tu emrpesa{" "}
+          Desarrollo personalizado para las necesidades de tu empresa{" "}
         </p>
         <a
           href="https://wa.me/584120440885"
           target="blank"
           className="md:w-64 flex justify-center items-center gap-4 w-full py-[6px] mt-10 bg-white rounded-full text-black md:hover:scale-110 transition ease-in-out delay-75 hover:-translate-y-1 duration-300"
         >
-          Contactanos <IoLogoWhatsapp />
+          Contáctanos <IoLogoWhatsapp />
         </a>
       </div>
       <div className="relative md:w-1/2 pt-14 ">

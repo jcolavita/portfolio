@@ -14,7 +14,7 @@ export default function tecnologies() {
   return (
     <section className="md:px-16 px-8 py-14">
       <h2 className="md:text-5xl text-3xl text-center font-bold mb-5">
-        Tecnologias
+        Tecnologías
       </h2>
       <hr className=" h-[1px] w-full bg-white mb-5" />
       <p className="text-whote text-center mb-8 md:text-lg text-base">
